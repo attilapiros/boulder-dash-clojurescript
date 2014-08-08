@@ -1,12 +1,14 @@
-(defproject webgame3 "0.1.0-SNAPSHOT"
+(defproject boulderdash "0.1.0-SNAPSHOT"
   :description "FIXME: write this!"
   :url "http://example.com/FIXME"
-  :dependencies [[org.clojure/clojure "1.4.0"]
-                 [ring "1.1.8"]]
-  :plugins [[lein-cljsbuild "0.3.0"]]
+  :dependencies [[org.clojure/clojure "1.6.0"]
+                 [ring "1.3.0"]
+                 [org.clojure/clojurescript "0.0-2280"
+                  :exclusions [org.apache.ant/ant]]]
+  :plugins [[lein-cljsbuild "1.0.3"]]
   :hooks [leiningen.cljsbuild]
   :source-paths ["src/clj"]
-  :cljsbuild { 
+  :cljsbuild {
     :builds {
       :main {
         :source-paths ["src/cljs"]
@@ -14,5 +16,5 @@
                    :optimizations :simple
                    :pretty-print true}
         :jar true}}}
-  :main webgame3.server)
+  :main my-boulder-dash.server)
 

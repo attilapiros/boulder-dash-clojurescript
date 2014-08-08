@@ -22,12 +22,12 @@
         "</head>"
         "<body onload=\"init()\">"
         "<div>"
-        "<p id=\"toAdd\"></p>" 
+        "<p id=\"toAdd\"></p>"
         "</div>"
 	"<div>"
 	"<canvas id=\"myCanvas\" width=\"500\" height=\"500\" tabindex=\"1\"></canvas>"
 	"</div>"
-	" <script src=\"js/cljs.js\"></script>"     
+	" <script src=\"js/cljs.js\"></script>"
         "</body>"
         "</html>")})
 
@@ -36,10 +36,10 @@
       (response/redirect "/help.html")
       (render-app)))
 
-(def app 
+(def app
   (-> handler
     (resources/wrap-resource "public")))
 
 (defn -main [& args]
-  (jetty/run-jetty app {:port 3000}))
+  (jetty/run-jetty app {:port 3001}))
 
