@@ -1,10 +1,10 @@
 # boulder-dash-clojurescript
 
-Boulder Dash clone in ClojureScript. 
+[Boulder Dash](https://en.wikipedia.org/wiki/Boulder_Dash) clone in ClojureScript. 
 
 Screenshot:
 
-[[https://raw.githubusercontent.com/pirosa/boulder-dash-clojurescript/master/doc/Screenshot.png|alt=screenshot]]
+![Screenshot](https://raw.githubusercontent.com/pirosa/boulder-dash-clojurescript/master/doc/Screenshot.png)
 
 To start it:
 
