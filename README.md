@@ -2,6 +2,9 @@
 
 Boulder Dash clone in ClojureScript. 
 
+Screenshot:
+
+[[https://raw.githubusercontent.com/pirosa/boulder-dash-clojurescript/master/doc/Screenshot.png|alt=screenshot]]
 
 To start it:
 
